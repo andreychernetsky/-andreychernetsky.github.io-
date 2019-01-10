@@ -170,6 +170,55 @@ display: flex;
 #menu {
 	display: none;
 }
+/*социальные иконки*/
+
+.icon-bar {
+	opacity: .7;
+	display: block;
+	position: fixed;
+	top: calc(50% - (165px / 2));
+	right: 0;
+	z-index: 100;
+}
+
+.icon-bar.open a,
+.icon-bar.open button {
+	opacity: 1;
+}
+
+.icon-bar a {
+	display: block;
+	text-align: center;
+	padding: 9px;
+	transition: all 0.3s ease;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+.icon-bar a.skype {
+	background: #00aeff;;
+}
+
+.icon-bar a.youtube {
+	background: #bb0000;
+}
+
+.icon-bar a.vk {
+	background: #47569b;
+}
+
+.icon-bar button {
+	display: none;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	font-size: 1.65rem;;
+	color: #ffffff;
+	opacity: .7;
+	transition: all .5s ease;
+	outline: none;
+	background-color: #00b600;
+}
 
 .wrap {
 	max-width: 990px;
