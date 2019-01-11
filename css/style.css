@@ -109,6 +109,12 @@ display: flex;
 .logo__dot {
 	color: rgb(88, 201, 58);
 }
+.logo__link {
+	font-size: 1.5rem;
+	display: block;
+	font-family: 'Eurofurence';
+	color: rgb(88, 201, 58);
+}
 
 .nav-menu {
 	height: 100%;
