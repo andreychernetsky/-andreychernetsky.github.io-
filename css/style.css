@@ -781,7 +781,8 @@ display: flex;
 
 .main-footer {
 	max-width: 100%;
-	height: 150px;
+
+	height: 200px;
 	background: #98B296;
 	display: flex;
 	justify-content: space-around;
