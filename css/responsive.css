@@ -77,5 +77,8 @@
 	.nav-menu {
 		padding-top: 15px;
 	}
+	.main-footer {
+		height: auto;
+	}
 
 }
