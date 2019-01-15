@@ -781,7 +781,7 @@ display: flex;
 
 .main-footer {
 	max-width: 100%;
-	
+	height: 150px;
 	background: #98B296;
 	display: flex;
 	
